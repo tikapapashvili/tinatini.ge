@@ -146,8 +146,8 @@ p { margin: 0; }
 .credential-list { display: grid; gap: 12px; }
 .credential { display: grid; grid-template-columns: 54px 1fr; align-items: center; gap: 18px; padding: 18px; border: 1px solid var(--line); border-radius: 18px; background: var(--white); }
 .credential-mark { width: 54px; height: 54px; display: grid; place-items: center; border-radius: 50%; color: var(--white); background: var(--forest); font: 700 1rem/1 "Cormorant Garamond", serif; }
-.credential strong, .credential span { display: block; }
-.credential span { color: var(--muted); font-size: .82rem; }
+.credential strong, .credential > div > span { display: block; }
+.credential > div > span { color: var(--muted); font-size: .82rem; }
 .leadership-card { min-height: 250px; }
 
 /* Courses */
