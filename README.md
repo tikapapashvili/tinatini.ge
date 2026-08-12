@@ -1,80 +1,30 @@
-# Tinatini.ge — Complete GitHub Pages website
+# Tinatini.ge
 
-This folder contains the new multi-page version of Tinatini.ge.
+A complete bilingual static website for Tinatin Papashvili, designed for GitHub Pages deployment from the root of the `main` branch.
 
-## Pages
+## English pages
 
-- `index.html` — Home
-- `portfolio.html` — My Portfolio
-- `services.html` — Services
-- `contact.html` — Contact
-- `privacy.html` — Privacy
-- `legal.html` — Legal
-- `styles.css` — all design and mobile styling
-- `script.js` — mobile navigation
-- `assets/` — Tinatin's portrait
+- Home
+- About
+- Courses
+- Portfolio
+- Consulting
+- Book a 1:1 session
+- Contact
+- Services overview
+- Privacy
+- Legal
 
-## IMPORTANT: replacing your current GitHub files
+## Georgian pages
 
-Because your repository already contains the older first version, upload these new files and choose **Replace** when GitHub warns that files with the same names already exist.
+The `ka/` directory contains Georgian versions of Home, About, Courses, Consulting, Booking, Contact, Privacy and Legal. The professional portfolio remains language-neutral because its case-study artifacts and technical terminology are in English.
 
-### Easiest method
+## Assets and deployment
 
-1. Download and unzip `tinatini-complete-website.zip`.
-2. Open your GitHub repository `tinatini.ge`.
-3. Click **Add file → Upload files**.
-4. Drag **everything INSIDE this folder** to GitHub:
-   - all `.html` files
-   - `styles.css`
-   - `script.js`
-   - the whole `assets` folder
-5. GitHub may tell you `index.html`, `styles.css`, etc. already exist. That is correct — the new files should replace them.
-6. Scroll down.
-7. Commit message: `Complete website redesign`
-8. Choose **Commit directly to the main branch**.
-9. Click **Commit changes**.
-10. Wait 1–3 minutes and refresh your GitHub Pages website.
+- `tinatin-green.png` is the only profile photograph used.
+- `styles.css` contains the responsive visual system.
+- `script.js` renders shared bilingual navigation/footer and mobile behavior.
+- No `CNAME` is included. Review the GitHub Pages deployment before connecting the custom domain.
 
-Your temporary Pages address should remain:
-`https://tikapapashvili.github.io/tinatini.ge/`
+Temporary review URL: https://tikapapashvili.github.io/tinatini.ge/
 
-## Do NOT add CNAME yet
-
-This package intentionally does not include a `CNAME` file.
-
-First review the complete website on the temporary GitHub address. When you are happy with it, then connect `tinatini.ge` and update DNS.
-
-## Content notes
-
-The Home and Contact data were restored from the current public Tinatini.ge website, including:
-- 10+ years experience
-- 99% student exam success rate
-- 120+ customers
-- Training, Consulting and Mentoring descriptions
-- real testimonials shown on the current site
-- BDO Georgia, Digitron LLC, TBC, TBC Pay and ACT Institute
-- info@tinatini.ge
-- +507 6525 0187
-
-The professional portfolio page also includes current public professional credentials and community leadership information associated with Tinatin Papashvili.
-
-## Updating text later
-
-GitHub makes simple edits easy:
-1. Open a file such as `index.html`.
-2. Click the pencil icon.
-3. Edit the text.
-4. Click **Commit changes**.
-5. GitHub Pages updates automatically.
-
-## Updating photos later
-
-Replace:
-- `assets/tinatin-green.png`
-
-Keep the same filenames and the website will update automatically.
-
-
-## Profile photo
-
-This version uses only `assets/tinatin-green.png` across the whole website.
