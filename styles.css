@@ -93,6 +93,7 @@ p { margin: 0; }
 .hero-grid { display: grid; grid-template-columns: 1.08fr .92fr; align-items: center; gap: 72px; }
 .hero-copy .lead { margin: 24px 0 28px; }
 .hero-copy h1 em, .page-hero h1 em { color: var(--sage); font-style: italic; }
+.profile-highlight { color: var(--sage); font-size: clamp(3.25rem, 7vw, 6rem); font-style: italic; }
 .check-list { display: grid; gap: 10px; padding: 0; margin: 0 0 30px; list-style: none; color: var(--ink-soft); }
 .check-list li { display: flex; align-items: flex-start; gap: 10px; }
 .check-list li::before { flex: 0 0 auto; color: var(--sage); font-weight: 900; content: "✓"; }
